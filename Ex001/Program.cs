@@ -1,7 +1,10 @@
-﻿int i = 0;
+﻿int a = 5;
+int b = 7;
 
-while (i < 10)
-{
-    i += 2;
-    Console.Write(i + " ");
-}
+int max = b;
+
+if (a > max ) max = a;
+if (b > max ) max = b;
+
+Console.Write("max = ");
+Console.WriteLine(max);
