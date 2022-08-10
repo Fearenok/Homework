@@ -1,4 +1,5 @@
-﻿int i = 1;
+﻿
+int i = 1;
 bool not = true;
 
 Console.WriteLine("Введите число:");
